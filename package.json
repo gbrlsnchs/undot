@@ -1,50 +1,4 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "undot",
-        "scope": null,
-        "escapedName": "undot",
-        "name": "undot",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "/usr/lib/node_modules"
-    ]
-  ],
-  "_from": "undot@latest",
-  "_id": "undot@0.2.0",
-  "_inCache": true,
-  "_location": "/undot",
-  "_nodeVersion": "4.4.7",
-  "_npmOperationalInternal": {
-    "host": "packages-16-east.internal.npmjs.com",
-    "tmp": "tmp/undot-0.2.0.tgz_1468238969950_0.5830146262887865"
-  },
-  "_npmUser": {
-    "name": "gsanches",
-    "email": "gabrielsanches@emptystables.tech"
-  },
-  "_npmVersion": "3.10.5",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "undot",
-    "scope": null,
-    "escapedName": "undot",
-    "name": "undot",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_resolved": "https://registry.npmjs.org/undot/-/undot-0.2.0.tgz",
-  "_shasum": "ce1db789116b25bf42785357abd4e8dece1db943",
-  "_shrinkwrap": null,
-  "_spec": "undot",
-  "_where": "/usr/lib/node_modules",
   "author": {
     "name": "Gabriel Sanches"
   },
@@ -53,17 +7,6 @@
   },
   "dependencies": {},
   "description": "A module that gets rid of relative path dots.",
-  "devDependencies": {
-    "mocha": "^2.5.3"
-  },
-  "directories": {
-    "test": "test"
-  },
-  "dist": {
-    "shasum": "ce1db789116b25bf42785357abd4e8dece1db943",
-    "tarball": "https://registry.npmjs.org/undot/-/undot-0.2.0.tgz"
-  },
-  "gitHead": "1bcf8dc1b16d6fb6f7684cc798820f28f7da0935",
   "homepage": "https://github.com/gsanches/undot#readme",
   "keywords": [
     "undot",
@@ -87,8 +30,7 @@
     "url": "git+https://github.com/gsanches/undot.git"
   },
   "scripts": {
-    "start": "node index.js",
-    "test": "mocha"
+    "start": "node index.js"
   },
-  "version": "0.2.0"
+  "version": "0.3.0"
 }
